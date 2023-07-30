@@ -22,7 +22,6 @@ class MoviesCollectionImplTest {
     void setUp() {
         moviesCollection = new MoviesCollectionImpl();
 
-        // Common test data setup
         movie1 = new Movie(1L, "Movie 1", "Director 1", "Action", now);
         movie2 = new Movie(2L, "Movie 2", "Director 2", "Drama", now.plusDays(2));
         movie3 = new Movie(3L, "Movie 3", "Director 3", "Comedy", now.plusDays(5));
